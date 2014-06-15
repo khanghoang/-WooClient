@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4434C85194E230000F70419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C84194E230000F70419 /* main.m */; };
+		B4434C88194E230000F70419 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C87194E230000F70419 /* AppDelegate.m */; };
+		B4434C8B194E230000F70419 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C8A194E230000F70419 /* ViewController.m */; };
+		B4434C8E194E230000F70419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8C194E230000F70419 /* Main.storyboard */; };
+		B4434C90194E230000F70419 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8F194E230000F70419 /* Images.xcassets */; };
+		B4434C9C194E230000F70419 /* OrangeFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C9B194E230000F70419 /* OrangeFashionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4434C96194E230000F70419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4434C77194E230000F70419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4434C7E194E230000F70419;
+			remoteInfo = OrangeFashion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4434C7F194E230000F70419 /* OrangeFashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeFashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4434C83194E230000F70419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4434C84194E230000F70419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4434C86194E230000F70419 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4434C87194E230000F70419 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4434C89194E230000F70419 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4434C8A194E230000F70419 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4434C8D194E230000F70419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4434C8F194E230000F70419 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B4434C95194E230000F70419 /* OrangeFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4434C9A194E230000F70419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4434C9B194E230000F70419 /* OrangeFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrangeFashionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4434C7C194E230000F70419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4434C92194E230000F70419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4434C76194E230000F70419 = {
+			isa = PBXGroup;
+			children = (
+				B4434C81194E230000F70419 /* OrangeFashion */,
+				B4434C98194E230000F70419 /* OrangeFashionTests */,
+				B4434C80194E230000F70419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4434C80194E230000F70419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4434C7F194E230000F70419 /* OrangeFashion.app */,
+				B4434C95194E230000F70419 /* OrangeFashionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4434C81194E230000F70419 /* OrangeFashion */ = {
+			isa = PBXGroup;
+			children = (
+				B4434C86194E230000F70419 /* AppDelegate.h */,
+				B4434C87194E230000F70419 /* AppDelegate.m */,
+				B4434C89194E230000F70419 /* ViewController.h */,
+				B4434C8A194E230000F70419 /* ViewController.m */,
+				B4434C8C194E230000F70419 /* Main.storyboard */,
+				B4434C8F194E230000F70419 /* Images.xcassets */,
+				B4434C82194E230000F70419 /* Supporting Files */,
+			);
+			path = OrangeFashion;
+			sourceTree = "<group>";
+		};
+		B4434C82194E230000F70419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4434C83194E230000F70419 /* Info.plist */,
+				B4434C84194E230000F70419 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4434C98194E230000F70419 /* OrangeFashionTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4434C9B194E230000F70419 /* OrangeFashionTests.m */,
+				B4434C99194E230000F70419 /* Supporting Files */,
+			);
+			path = OrangeFashionTests;
+			sourceTree = "<group>";
+		};
+		B4434C99194E230000F70419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4434C9A194E230000F70419 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4434C7E194E230000F70419 /* OrangeFashion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4434C9F194E230000F70419 /* Build configuration list for PBXNativeTarget "OrangeFashion" */;
+			buildPhases = (
+				B4434C7B194E230000F70419 /* Sources */,
+				B4434C7C194E230000F70419 /* Frameworks */,
+				B4434C7D194E230000F70419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrangeFashion;
+			productName = OrangeFashion;
+			productReference = B4434C7F194E230000F70419 /* OrangeFashion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4434C94194E230000F70419 /* OrangeFashionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4434CA2194E230000F70419 /* Build configuration list for PBXNativeTarget "OrangeFashionTests" */;
+			buildPhases = (
+				B4434C91194E230000F70419 /* Sources */,
+				B4434C92194E230000F70419 /* Frameworks */,
+				B4434C93194E230000F70419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4434C97194E230000F70419 /* PBXTargetDependency */,
+			);
+			name = OrangeFashionTests;
+			productName = OrangeFashionTests;
+			productReference = B4434C95194E230000F70419 /* OrangeFashionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4434C77194E230000F70419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Triệu Khang";
+				TargetAttributes = {
+					B4434C7E194E230000F70419 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B4434C94194E230000F70419 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B4434C7E194E230000F70419;
+					};
+				};
+			};
+			buildConfigurationList = B4434C7A194E230000F70419 /* Build configuration list for PBXProject "OrangeFashion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4434C76194E230000F70419;
+			productRefGroup = B4434C80194E230000F70419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4434C7E194E230000F70419 /* OrangeFashion */,
+				B4434C94194E230000F70419 /* OrangeFashionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4434C7D194E230000F70419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4434C8E194E230000F70419 /* Main.storyboard in Resources */,
+				B4434C90194E230000F70419 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4434C93194E230000F70419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4434C7B194E230000F70419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4434C8B194E230000F70419 /* ViewController.m in Sources */,
+				B4434C88194E230000F70419 /* AppDelegate.m in Sources */,
+				B4434C85194E230000F70419 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4434C91194E230000F70419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4434C9C194E230000F70419 /* OrangeFashionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4434C97194E230000F70419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4434C7E194E230000F70419 /* OrangeFashion */;
+			targetProxy = B4434C96194E230000F70419 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4434C8C194E230000F70419 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4434C8D194E230000F70419 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4434C9D194E230000F70419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4434C9E194E230000F70419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4434CA0194E230000F70419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OrangeFashion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4434CA1194E230000F70419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OrangeFashion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4434CA3194E230000F70419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrangeFashion.app/OrangeFashion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrangeFashionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B4434CA4194E230000F70419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrangeFashion.app/OrangeFashion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrangeFashionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4434C7A194E230000F70419 /* Build configuration list for PBXProject "OrangeFashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4434C9D194E230000F70419 /* Debug */,
+				B4434C9E194E230000F70419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4434C9F194E230000F70419 /* Build configuration list for PBXNativeTarget "OrangeFashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4434CA0194E230000F70419 /* Debug */,
+				B4434CA1194E230000F70419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4434CA2194E230000F70419 /* Build configuration list for PBXNativeTarget "OrangeFashionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4434CA3194E230000F70419 /* Debug */,
+				B4434CA4194E230000F70419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4434C77194E230000F70419 /* Project object */;
+}
