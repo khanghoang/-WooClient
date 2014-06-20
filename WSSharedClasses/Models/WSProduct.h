@@ -44,7 +44,9 @@
 @property (nonatomic, strong) NSArray *parent;
 
 /**
- This is the regular price, there are another price, called sale price.
+ This is the regular price, there are another prices, called sale price, active price.
+ 
+ They are not included any taxes.
  */
 @property (nonatomic, strong) NSNumber *regularPrice;
 
