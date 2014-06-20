@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 Triệu Khang. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "WSAppDelegateiPad.h"
 
-@interface AppDelegate ()
+@interface WSAppDelegateiPad ()
             
 
 @end
 
-@implementation AppDelegate
+@implementation WSAppDelegateiPad
             
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

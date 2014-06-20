@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6A44D52CF0764593A3BFC742 /* libPods-OrangeFashion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B51E29F28E764B30BDE87C81 /* libPods-OrangeFashion.a */; };
-		B4434C85194E230000F70419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C84194E230000F70419 /* main.m */; };
-		B4434C88194E230000F70419 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C87194E230000F70419 /* AppDelegate.m */; };
-		B4434C8B194E230000F70419 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C8A194E230000F70419 /* ViewController.m */; };
-		B4434C8E194E230000F70419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8C194E230000F70419 /* Main.storyboard */; };
 		B4434C90194E230000F70419 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8F194E230000F70419 /* Images.xcassets */; };
 		B44740B11954A0030037EDE6 /* AFOAuth1OneLeggedClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44740AF1954A0030037EDE6 /* AFOAuth1OneLeggedClientTests.m */; };
 		B44740B21954A0030037EDE6 /* AFOAuth1OneLeggedClientWooParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44740B01954A0030037EDE6 /* AFOAuth1OneLeggedClientWooParserTests.m */; };
-		B4982B731954A07000C61582 /* AFOAuth1Client.m in Sources */ = {isa = PBXBuildFile; fileRef = B4982B6C1954A07000C61582 /* AFOAuth1Client.m */; };
-		B4982B741954A07000C61582 /* AFOAuth1OneLeggedClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B4982B6E1954A07000C61582 /* AFOAuth1OneLeggedClient.m */; };
-		B4982B761954A07000C61582 /* AFOAuth1OneLeggedClientWooParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B4982B711954A07000C61582 /* AFOAuth1OneLeggedClientWooParser.m */; };
+		B47007351954A0F400DDCF25 /* AFOAuth1Client.m in Sources */ = {isa = PBXBuildFile; fileRef = B470072E1954A0F400DDCF25 /* AFOAuth1Client.m */; };
+		B47007361954A0F400DDCF25 /* AFOAuth1OneLeggedClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007301954A0F400DDCF25 /* AFOAuth1OneLeggedClient.m */; };
+		B47007381954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007331954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParser.m */; };
+		B470073E1954A11900DDCF25 /* WSAppDelegateiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B470073D1954A11900DDCF25 /* WSAppDelegateiPad.m */; };
+		B47007431954A14300DDCF25 /* WSAppDelegateiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007401954A14300DDCF25 /* WSAppDelegateiPhone.m */; };
+		B47007441954A14300DDCF25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007421954A14300DDCF25 /* ViewController.m */; };
+		B47007491954A18900DDCF25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007471954A18900DDCF25 /* main.m */; };
+		B470074A1954A1A500DDCF25 /* AFOAuth1OneLeggedClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007311954A0F400DDCF25 /* AFOAuth1OneLeggedClientTests.m */; };
+		B470074B1954A1A900DDCF25 /* AFOAuth1OneLeggedClientWooParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007341954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParserTests.m */; };
+		B470074C1954A29100DDCF25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8C194E230000F70419 /* Main.storyboard */; };
 		EDC3AD8226EB49B4B9F013C9 /* libPods-OrangeFashionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1C8A3E323345E48F708F87 /* libPods-OrangeFashionTests.a */; };
 /* End PBXBuildFile section */
 
@@ -35,24 +38,29 @@
 		286A147C54D1456B88623119 /* Pods-OrangeFashion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeFashion.xcconfig"; path = "Pods/Pods-OrangeFashion.xcconfig"; sourceTree = "<group>"; };
 		8856AF79BB734F728449A976 /* Pods-OrangeFashionTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeFashionTests.xcconfig"; path = "Pods/Pods-OrangeFashionTests.xcconfig"; sourceTree = "<group>"; };
 		B4434C7F194E230000F70419 /* OrangeFashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeFashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4434C83194E230000F70419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4434C84194E230000F70419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B4434C86194E230000F70419 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B4434C87194E230000F70419 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B4434C89194E230000F70419 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B4434C8A194E230000F70419 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B4434C8D194E230000F70419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4434C8F194E230000F70419 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B4434C95194E230000F70419 /* OrangeFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4434C9A194E230000F70419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B44740AF1954A0030037EDE6 /* AFOAuth1OneLeggedClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClientTests.m; sourceTree = "<group>"; };
 		B44740B01954A0030037EDE6 /* AFOAuth1OneLeggedClientWooParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClientWooParserTests.m; sourceTree = "<group>"; };
-		B4982B6B1954A07000C61582 /* AFOAuth1Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOAuth1Client.h; path = WSSharedClasses/Vendors/AFOAuth1Client/AFOAuth1Client.h; sourceTree = SOURCE_ROOT; };
-		B4982B6C1954A07000C61582 /* AFOAuth1Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOAuth1Client.m; path = WSSharedClasses/Vendors/AFOAuth1Client/AFOAuth1Client.m; sourceTree = SOURCE_ROOT; };
-		B4982B6D1954A07000C61582 /* AFOAuth1OneLeggedClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOAuth1OneLeggedClient.h; path = WSSharedClasses/Vendors/AFOAuth1Client/AFOAuth1OneLeggedClient.h; sourceTree = SOURCE_ROOT; };
-		B4982B6E1954A07000C61582 /* AFOAuth1OneLeggedClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOAuth1OneLeggedClient.m; path = WSSharedClasses/Vendors/AFOAuth1Client/AFOAuth1OneLeggedClient.m; sourceTree = SOURCE_ROOT; };
-		B4982B701954A07000C61582 /* AFOAuth1OneLeggedClientWooParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOAuth1OneLeggedClientWooParser.h; path = WSSharedClasses/Vendors/AFOAuth1Client/AFOAuth1OneLeggedClientWooParser.h; sourceTree = SOURCE_ROOT; };
-		B4982B711954A07000C61582 /* AFOAuth1OneLeggedClientWooParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOAuth1OneLeggedClientWooParser.m; path = WSSharedClasses/Vendors/AFOAuth1Client/AFOAuth1OneLeggedClientWooParser.m; sourceTree = SOURCE_ROOT; };
+		B470072D1954A0F400DDCF25 /* AFOAuth1Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOAuth1Client.h; sourceTree = "<group>"; };
+		B470072E1954A0F400DDCF25 /* AFOAuth1Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1Client.m; sourceTree = "<group>"; };
+		B470072F1954A0F400DDCF25 /* AFOAuth1OneLeggedClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOAuth1OneLeggedClient.h; sourceTree = "<group>"; };
+		B47007301954A0F400DDCF25 /* AFOAuth1OneLeggedClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClient.m; sourceTree = "<group>"; };
+		B47007311954A0F400DDCF25 /* AFOAuth1OneLeggedClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClientTests.m; sourceTree = "<group>"; };
+		B47007321954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOAuth1OneLeggedClientWooParser.h; sourceTree = "<group>"; };
+		B47007331954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClientWooParser.m; sourceTree = "<group>"; };
+		B47007341954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClientWooParserTests.m; sourceTree = "<group>"; };
+		B470073C1954A11900DDCF25 /* WSAppDelegateiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAppDelegateiPad.h; sourceTree = "<group>"; };
+		B470073D1954A11900DDCF25 /* WSAppDelegateiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegateiPad.m; sourceTree = "<group>"; };
+		B470073F1954A14300DDCF25 /* WSAppDelegateiPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAppDelegateiPhone.h; sourceTree = "<group>"; };
+		B47007401954A14300DDCF25 /* WSAppDelegateiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegateiPhone.m; sourceTree = "<group>"; };
+		B47007411954A14300DDCF25 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B47007421954A14300DDCF25 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B47007461954A18900DDCF25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47007471954A18900DDCF25 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B470074D1954A32300DDCF25 /* WooShop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WooShop-Prefix.pch"; sourceTree = "<group>"; };
 		B51E29F28E764B30BDE87C81 /* libPods-OrangeFashion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeFashion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1C8A3E323345E48F708F87 /* libPods-OrangeFashionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeFashionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,22 +94,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B40A9AC11951A5980075337E /* AFOAuth1Client */ = {
-			isa = PBXGroup;
-			children = (
-				B4982B6B1954A07000C61582 /* AFOAuth1Client.h */,
-				B4982B6C1954A07000C61582 /* AFOAuth1Client.m */,
-				B4982B6D1954A07000C61582 /* AFOAuth1OneLeggedClient.h */,
-				B4982B6E1954A07000C61582 /* AFOAuth1OneLeggedClient.m */,
-				B4982B701954A07000C61582 /* AFOAuth1OneLeggedClientWooParser.h */,
-				B4982B711954A07000C61582 /* AFOAuth1OneLeggedClientWooParser.m */,
-			);
-			path = AFOAuth1Client;
-			sourceTree = "<group>";
-		};
 		B4434C76194E230000F70419 = {
 			isa = PBXGroup;
 			children = (
+				B470072A1954A0F400DDCF25 /* WSSharedClasses */,
 				B4434C81194E230000F70419 /* OrangeFashion */,
 				B4434C98194E230000F70419 /* OrangeFashionTests */,
 				B4434C80194E230000F70419 /* Products */,
@@ -123,25 +119,12 @@
 		B4434C81194E230000F70419 /* OrangeFashion */ = {
 			isa = PBXGroup;
 			children = (
-				B4434C86194E230000F70419 /* AppDelegate.h */,
-				B4434C87194E230000F70419 /* AppDelegate.m */,
-				B4434C89194E230000F70419 /* ViewController.h */,
-				B4434C8A194E230000F70419 /* ViewController.m */,
-				B4434C8C194E230000F70419 /* Main.storyboard */,
+				B470073A1954A10300DDCF25 /* iPad */,
+				B470073B1954A10300DDCF25 /* iPhone */,
 				B4434C8F194E230000F70419 /* Images.xcassets */,
-				B40A9AC11951A5980075337E /* AFOAuth1Client */,
-				B4434C82194E230000F70419 /* Supporting Files */,
+				B47007451954A18900DDCF25 /* Supporting Files */,
 			);
 			path = OrangeFashion;
-			sourceTree = "<group>";
-		};
-		B4434C82194E230000F70419 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B4434C83194E230000F70419 /* Info.plist */,
-				B4434C84194E230000F70419 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B4434C98194E230000F70419 /* OrangeFashionTests */ = {
@@ -160,6 +143,68 @@
 				B4434C9A194E230000F70419 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B470072A1954A0F400DDCF25 /* WSSharedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B470072B1954A0F400DDCF25 /* Vendors */,
+			);
+			path = WSSharedClasses;
+			sourceTree = "<group>";
+		};
+		B470072B1954A0F400DDCF25 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				B470072C1954A0F400DDCF25 /* AFOAuth1Client */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		B470072C1954A0F400DDCF25 /* AFOAuth1Client */ = {
+			isa = PBXGroup;
+			children = (
+				B470072D1954A0F400DDCF25 /* AFOAuth1Client.h */,
+				B470072E1954A0F400DDCF25 /* AFOAuth1Client.m */,
+				B470072F1954A0F400DDCF25 /* AFOAuth1OneLeggedClient.h */,
+				B47007301954A0F400DDCF25 /* AFOAuth1OneLeggedClient.m */,
+				B47007311954A0F400DDCF25 /* AFOAuth1OneLeggedClientTests.m */,
+				B47007321954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParser.h */,
+				B47007331954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParser.m */,
+				B47007341954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParserTests.m */,
+			);
+			path = AFOAuth1Client;
+			sourceTree = "<group>";
+		};
+		B470073A1954A10300DDCF25 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B470073C1954A11900DDCF25 /* WSAppDelegateiPad.h */,
+				B470073D1954A11900DDCF25 /* WSAppDelegateiPad.m */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		B470073B1954A10300DDCF25 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				B470073F1954A14300DDCF25 /* WSAppDelegateiPhone.h */,
+				B47007401954A14300DDCF25 /* WSAppDelegateiPhone.m */,
+				B47007411954A14300DDCF25 /* ViewController.h */,
+				B47007421954A14300DDCF25 /* ViewController.m */,
+				B4434C8C194E230000F70419 /* Main.storyboard */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		B47007451954A18900DDCF25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B47007461954A18900DDCF25 /* Info.plist */,
+				B47007471954A18900DDCF25 /* main.m */,
+				B470074D1954A32300DDCF25 /* WooShop-Prefix.pch */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4434C8E194E230000F70419 /* Main.storyboard in Resources */,
+				B470074C1954A29100DDCF25 /* Main.storyboard in Resources */,
 				B4434C90194E230000F70419 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,12 +373,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4434C8B194E230000F70419 /* ViewController.m in Sources */,
-				B4434C88194E230000F70419 /* AppDelegate.m in Sources */,
-				B4982B761954A07000C61582 /* AFOAuth1OneLeggedClientWooParser.m in Sources */,
-				B4434C85194E230000F70419 /* main.m in Sources */,
-				B4982B731954A07000C61582 /* AFOAuth1Client.m in Sources */,
-				B4982B741954A07000C61582 /* AFOAuth1OneLeggedClient.m in Sources */,
+				B47007491954A18900DDCF25 /* main.m in Sources */,
+				B470073E1954A11900DDCF25 /* WSAppDelegateiPad.m in Sources */,
+				B47007431954A14300DDCF25 /* WSAppDelegateiPhone.m in Sources */,
+				B47007441954A14300DDCF25 /* ViewController.m in Sources */,
+				B47007381954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParser.m in Sources */,
+				B47007351954A0F400DDCF25 /* AFOAuth1Client.m in Sources */,
+				B47007361954A0F400DDCF25 /* AFOAuth1OneLeggedClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +388,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44740B21954A0030037EDE6 /* AFOAuth1OneLeggedClientWooParserTests.m in Sources */,
+				B470074B1954A1A900DDCF25 /* AFOAuth1OneLeggedClientWooParserTests.m in Sources */,
 				B44740B11954A0030037EDE6 /* AFOAuth1OneLeggedClientTests.m in Sources */,
+				B470074A1954A1A500DDCF25 /* AFOAuth1OneLeggedClientTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +411,7 @@
 				B4434C8D194E230000F70419 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -450,7 +499,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = OrangeFashion/Info.plist;
+				GCC_PREFIX_HEADER = "OrangeFashion/Supporting Files/WooShop-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/OrangeFashion/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,7 +514,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = OrangeFashion/Info.plist;
+				GCC_PREFIX_HEADER = "OrangeFashion/Supporting Files/WooShop-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/OrangeFashion/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +532,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PREFIX_HEADER = "OrangeFashion/Supporting Files/WooShop-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -502,6 +554,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PREFIX_HEADER = "OrangeFashion/Supporting Files/WooShop-Prefix.pch";
 				INFOPLIST_FILE = OrangeFashionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
