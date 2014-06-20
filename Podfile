@@ -5,6 +5,7 @@ target "OrangeFashion" do
 
 	pod "AFNetworking", "~> 1.3.4"
 	pod "CleanTableViewDataSource"
+	pod "KZPropertyMapper"
 
 end
 
