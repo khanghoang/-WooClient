@@ -15,6 +15,9 @@
 		B4434C8E194E230000F70419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8C194E230000F70419 /* Main.storyboard */; };
 		B4434C90194E230000F70419 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8F194E230000F70419 /* Images.xcassets */; };
 		B4434C9C194E230000F70419 /* OrangeFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C9B194E230000F70419 /* OrangeFashionTests.m */; };
+		B47B335019529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B334F19529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m */; };
+		B47B335319529E1600F207F3 /* AFOAuth1OneLeggedClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B335219529E1600F207F3 /* AFOAuth1OneLeggedClient.m */; };
+		EDC3AD8226EB49B4B9F013C9 /* libPods-OrangeFashionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1C8A3E323345E48F708F87 /* libPods-OrangeFashionTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		286A147C54D1456B88623119 /* Pods-OrangeFashion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeFashion.xcconfig"; path = "Pods/Pods-OrangeFashion.xcconfig"; sourceTree = "<group>"; };
+		8856AF79BB734F728449A976 /* Pods-OrangeFashionTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrangeFashionTests.xcconfig"; path = "Pods/Pods-OrangeFashionTests.xcconfig"; sourceTree = "<group>"; };
 		B40A9AC21951A5980075337E /* AFOAuth1Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOAuth1Client.h; sourceTree = "<group>"; };
 		B40A9AC31951A5980075337E /* AFOAuth1Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1Client.m; sourceTree = "<group>"; };
 		B4434C7F194E230000F70419 /* OrangeFashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeFashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +47,11 @@
 		B4434C95194E230000F70419 /* OrangeFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4434C9A194E230000F70419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4434C9B194E230000F70419 /* OrangeFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrangeFashionTests.m; sourceTree = "<group>"; };
+		B47B334F19529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClientTests.m; sourceTree = "<group>"; };
+		B47B335119529E1600F207F3 /* AFOAuth1OneLeggedClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOAuth1OneLeggedClient.h; sourceTree = "<group>"; };
+		B47B335219529E1600F207F3 /* AFOAuth1OneLeggedClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClient.m; sourceTree = "<group>"; };
 		B51E29F28E764B30BDE87C81 /* libPods-OrangeFashion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeFashion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1C8A3E323345E48F708F87 /* libPods-OrangeFashionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeFashionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC3AD8226EB49B4B9F013C9 /* libPods-OrangeFashionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				B51E29F28E764B30BDE87C81 /* libPods-OrangeFashion.a */,
+				EF1C8A3E323345E48F708F87 /* libPods-OrangeFashionTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,6 +88,8 @@
 			children = (
 				B40A9AC21951A5980075337E /* AFOAuth1Client.h */,
 				B40A9AC31951A5980075337E /* AFOAuth1Client.m */,
+				B47B335119529E1600F207F3 /* AFOAuth1OneLeggedClient.h */,
+				B47B335219529E1600F207F3 /* AFOAuth1OneLeggedClient.m */,
 			);
 			path = AFOAuth1Client;
 			sourceTree = "<group>";
@@ -90,6 +102,7 @@
 				B4434C80194E230000F70419 /* Products */,
 				286A147C54D1456B88623119 /* Pods-OrangeFashion.xcconfig */,
 				9122869917C34FC882B44EDD /* Frameworks */,
+				8856AF79BB734F728449A976 /* Pods-OrangeFashionTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +142,7 @@
 		B4434C98194E230000F70419 /* OrangeFashionTests */ = {
 			isa = PBXGroup;
 			children = (
+				B47B334F19529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m */,
 				B4434C9B194E230000F70419 /* OrangeFashionTests.m */,
 				B4434C99194E230000F70419 /* Supporting Files */,
 			);
@@ -169,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4434CA2194E230000F70419 /* Build configuration list for PBXNativeTarget "OrangeFashionTests" */;
 			buildPhases = (
+				1B22914549C4466597CA33C9 /* Check Pods Manifest.lock */,
 				B4434C91194E230000F70419 /* Sources */,
 				B4434C92194E230000F70419 /* Frameworks */,
 				B4434C93194E230000F70419 /* Resources */,
+				7AD7BA5A777D41198376A435 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +256,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1B22914549C4466597CA33C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD7BA5A777D41198376A435 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-OrangeFashionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7E9C97E4FA864F6A83224AC4 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,6 +327,7 @@
 				B4434C88194E230000F70419 /* AppDelegate.m in Sources */,
 				B4434C85194E230000F70419 /* main.m in Sources */,
 				B40A9AC41951A5980075337E /* AFOAuth1Client.m in Sources */,
+				B47B335319529E1600F207F3 /* AFOAuth1OneLeggedClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B47B335019529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m in Sources */,
 				B4434C9C194E230000F70419 /* OrangeFashionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +464,7 @@
 		};
 		B4434CA3194E230000F70419 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8856AF79BB734F728449A976 /* Pods-OrangeFashionTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrangeFashion.app/OrangeFashion";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -436,6 +485,7 @@
 		};
 		B4434CA4194E230000F70419 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8856AF79BB734F728449A976 /* Pods-OrangeFashionTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrangeFashion.app/OrangeFashion";
 				FRAMEWORK_SEARCH_PATHS = (
