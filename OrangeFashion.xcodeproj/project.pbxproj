@@ -21,6 +21,7 @@
 		B470074A1954A1A500DDCF25 /* AFOAuth1OneLeggedClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007311954A0F400DDCF25 /* AFOAuth1OneLeggedClientTests.m */; };
 		B470074B1954A1A900DDCF25 /* AFOAuth1OneLeggedClientWooParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007341954A0F400DDCF25 /* AFOAuth1OneLeggedClientWooParserTests.m */; };
 		B470074C1954A29100DDCF25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8C194E230000F70419 /* Main.storyboard */; };
+		B47007541954B7B700DDCF25 /* WSProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = B47007531954B7B700DDCF25 /* WSProduct.m */; };
 		EDC3AD8226EB49B4B9F013C9 /* libPods-OrangeFashionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1C8A3E323345E48F708F87 /* libPods-OrangeFashionTests.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		B47007461954A18900DDCF25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B47007471954A18900DDCF25 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B470074D1954A32300DDCF25 /* WooShop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WooShop-Prefix.pch"; sourceTree = "<group>"; };
+		B47007521954B7B700DDCF25 /* WSProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProduct.h; sourceTree = "<group>"; };
+		B47007531954B7B700DDCF25 /* WSProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProduct.m; sourceTree = "<group>"; };
 		B51E29F28E764B30BDE87C81 /* libPods-OrangeFashion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeFashion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1C8A3E323345E48F708F87 /* libPods-OrangeFashionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeFashionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -148,6 +151,7 @@
 		B470072A1954A0F400DDCF25 /* WSSharedClasses */ = {
 			isa = PBXGroup;
 			children = (
+				B47007511954B7A900DDCF25 /* Models */,
 				B470072B1954A0F400DDCF25 /* Vendors */,
 			);
 			path = WSSharedClasses;
@@ -205,6 +209,15 @@
 				B470074D1954A32300DDCF25 /* WooShop-Prefix.pch */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B47007511954B7A900DDCF25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B47007521954B7B700DDCF25 /* WSProduct.h */,
+				B47007531954B7B700DDCF25 /* WSProduct.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B47007491954A18900DDCF25 /* main.m in Sources */,
+				B47007541954B7B700DDCF25 /* WSProduct.m in Sources */,
 				B470073E1954A11900DDCF25 /* WSAppDelegateiPad.m in Sources */,
 				B47007431954A14300DDCF25 /* WSAppDelegateiPhone.m in Sources */,
 				B47007441954A14300DDCF25 /* ViewController.m in Sources */,
