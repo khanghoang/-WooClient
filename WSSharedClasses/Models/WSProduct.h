@@ -41,7 +41,7 @@
 /**
  Parents of product, maybe empty.
  */
-@property (nonatomic, strong) NSArray *prarent;
+@property (nonatomic, strong) NSArray *parent;
 
 /**
  This is the regular price, there are another price, called sale price.
