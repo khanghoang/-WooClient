@@ -8,6 +8,12 @@
 
 #import "AFOAuth1Client.h"
 
+@protocol AFOAuth1OneLeggedClientWooParserProtocol <NSObject>
+
+- (NSDictionary *)wooCommerceParsedResponseObject:(id)responseObject;
+
+@end
+
 @interface AFOAuth1OneLeggedClient : AFOAuth1Client
 
 - (void)getPath:(NSString *)path

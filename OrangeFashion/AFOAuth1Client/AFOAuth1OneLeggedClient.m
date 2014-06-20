@@ -6,17 +6,29 @@
 //  Copyright (c) 2014 Triệu Khang. All rights reserved.
 //
 
+
 #import "AFOAuth1OneLeggedClient.h"
+#import "AFOAuth1OneLeggedClientWooParser.h"
 
 @interface AFOAuth1OneLeggedClient()
 
 @property (readwrite, nonatomic, strong) NSMutableDictionary *defaultHeaders;
+@property (strong, nonatomic) AFOAuth1OneLeggedClientWooParser *parser;
 
 @end
 
 @implementation AFOAuth1OneLeggedClient
 
 @synthesize defaultHeaders = _defaultHeaders;
+
+- (instancetype)initWithBaseURL:(NSURL *)url key:(NSString *)key secret:(NSString *)secret
+{
+    if (self = [super initWithBaseURL:url key:key secret:secret]) {
+        _parser = [[AFOAuth1OneLeggedClientWooParser alloc] init];
+    }
+
+    return self;
+}
 
 - (NSDictionary *)OAuthParameters {
 
@@ -101,7 +113,14 @@
 	NSURLRequest *request = [self requestWithMethod:@"GET" path:path parameters:parameters];
     NSMutableDictionary *paramsWithOAuth = [[self OAuthParametersWithRequest:request andAdditionalParams:parameters] mutableCopy];
 
-    [super getPath:path parameters:paramsWithOAuth success:success failure:failure];
+    void (^successAfterParsing)(AFHTTPRequestOperation *operation, id parsedResponseObject) = ^void(AFHTTPRequestOperation *operation, id responseObject) {
+        id parsedResponseObject = [self.parser wooCommerceParsedResponseObject:responseObject];
+        if (success) {
+            success(operation, parsedResponseObject);
+        }
+    };
+
+    [super getPath:path parameters:paramsWithOAuth success:successAfterParsing failure:failure];
 }
 
 - (void)postPath:(NSString *)path
@@ -112,7 +131,14 @@
 	NSURLRequest *request = [(AFHTTPClient *)self requestWithMethod:@"POST" path:path parameters:parameters];
     NSMutableDictionary *paramsWithOAuth = [[self OAuthParametersWithRequest:request andAdditionalParams:parameters] mutableCopy];
 
-    [super postPath:path parameters:paramsWithOAuth success:success failure:failure];
+    void (^successAfterParsing)(AFHTTPRequestOperation *operation, id parsedResponseObject) = ^void(AFHTTPRequestOperation *operation, id responseObject) {
+        id parsedResponseObject = [self.parser wooCommerceParsedResponseObject:responseObject];
+        if (success) {
+            success(operation, parsedResponseObject);
+        }
+    };
+
+    [super postPath:path parameters:paramsWithOAuth success:successAfterParsing failure:failure];
 }
 
 - (void)putPath:(NSString *)path
@@ -124,7 +150,14 @@
 	NSURLRequest *request = [fakeSelf requestWithMethod:@"PUT" path:path parameters:parameters];
     NSMutableDictionary *paramsWithOAuth = [[self OAuthParametersWithRequest:request andAdditionalParams:parameters] mutableCopy];
 
-    [super putPath:path parameters:paramsWithOAuth success:success failure:failure];
+    void (^successAfterParsing)(AFHTTPRequestOperation *operation, id parsedResponseObject) = ^void(AFHTTPRequestOperation *operation, id responseObject) {
+        id parsedResponseObject = [self.parser wooCommerceParsedResponseObject:responseObject];
+        if (success) {
+            success(operation, parsedResponseObject);
+        }
+    };
+
+    [super putPath:path parameters:paramsWithOAuth success:successAfterParsing failure:failure];
 }
 
 - (void)deletePath:(NSString *)path
@@ -135,7 +168,14 @@
 	NSURLRequest *request = [(AFHTTPClient *)self requestWithMethod:@"DELETE" path:path parameters:parameters];
     NSMutableDictionary *paramsWithOAuth = [[self OAuthParametersWithRequest:request andAdditionalParams:parameters] mutableCopy];
 
-    [super deletePath:path parameters:paramsWithOAuth success:success failure:failure];
+    void (^successAfterParsing)(AFHTTPRequestOperation *operation, id parsedResponseObject) = ^void(AFHTTPRequestOperation *operation, id responseObject) {
+        id parsedResponseObject = [self.parser wooCommerceParsedResponseObject:responseObject];
+        if (success) {
+            success(operation, parsedResponseObject);
+        }
+    };
+
+    [super deletePath:path parameters:paramsWithOAuth success:successAfterParsing failure:failure];
 }
 
 - (void)patchPath:(NSString *)path
@@ -146,7 +186,14 @@
 	NSURLRequest *request = [(AFHTTPClient *)self requestWithMethod:@"PATCH" path:path parameters:parameters];
     NSMutableDictionary *paramsWithOAuth = [[self OAuthParametersWithRequest:request andAdditionalParams:parameters] mutableCopy];
 
-    [super patchPath:path parameters:paramsWithOAuth success:success failure:failure];
+    void (^successAfterParsing)(AFHTTPRequestOperation *operation, id parsedResponseObject) = ^void(AFHTTPRequestOperation *operation, id responseObject) {
+        id parsedResponseObject = [self.parser wooCommerceParsedResponseObject:responseObject];
+        if (success) {
+            success(operation, parsedResponseObject);
+        }
+    };
+
+    [super patchPath:path parameters:paramsWithOAuth success:successAfterParsing failure:failure];
 }
 
 - (NSString *)defaultValueForHeader:(NSString *)header {

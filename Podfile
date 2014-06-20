@@ -9,7 +9,7 @@ end
 
 target "OrangeFashionTests" do
 
-	pod "Kiwi"
+	pod "Kiwi/XCTest"
 
 end
 

@@ -14,8 +14,9 @@
 		B4434C8B194E230000F70419 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C8A194E230000F70419 /* ViewController.m */; };
 		B4434C8E194E230000F70419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8C194E230000F70419 /* Main.storyboard */; };
 		B4434C90194E230000F70419 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4434C8F194E230000F70419 /* Images.xcassets */; };
-		B4434C9C194E230000F70419 /* OrangeFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4434C9B194E230000F70419 /* OrangeFashionTests.m */; };
-		B47B335019529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B334F19529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m */; };
+		B44B25F21953F584007CE8B1 /* AFOAuth1OneLeggedClientWooParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B44B25F11953F584007CE8B1 /* AFOAuth1OneLeggedClientWooParser.m */; };
+		B461DCDE19542C28003F7EF4 /* AFOAuth1OneLeggedClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B490FE4719542A6000E1B60F /* AFOAuth1OneLeggedClientTests.m */; };
+		B461DCDF19542C2C003F7EF4 /* AFOAuth1OneLeggedClientWooParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B490FE4819542A6000E1B60F /* AFOAuth1OneLeggedClientWooParserTests.m */; };
 		B47B335319529E1600F207F3 /* AFOAuth1OneLeggedClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B335219529E1600F207F3 /* AFOAuth1OneLeggedClient.m */; };
 		EDC3AD8226EB49B4B9F013C9 /* libPods-OrangeFashionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1C8A3E323345E48F708F87 /* libPods-OrangeFashionTests.a */; };
 /* End PBXBuildFile section */
@@ -46,10 +47,12 @@
 		B4434C8F194E230000F70419 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B4434C95194E230000F70419 /* OrangeFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4434C9A194E230000F70419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4434C9B194E230000F70419 /* OrangeFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrangeFashionTests.m; sourceTree = "<group>"; };
-		B47B334F19529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClientTests.m; sourceTree = "<group>"; };
+		B44B25F01953F584007CE8B1 /* AFOAuth1OneLeggedClientWooParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOAuth1OneLeggedClientWooParser.h; sourceTree = "<group>"; };
+		B44B25F11953F584007CE8B1 /* AFOAuth1OneLeggedClientWooParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClientWooParser.m; sourceTree = "<group>"; };
 		B47B335119529E1600F207F3 /* AFOAuth1OneLeggedClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOAuth1OneLeggedClient.h; sourceTree = "<group>"; };
 		B47B335219529E1600F207F3 /* AFOAuth1OneLeggedClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth1OneLeggedClient.m; sourceTree = "<group>"; };
+		B490FE4719542A6000E1B60F /* AFOAuth1OneLeggedClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOAuth1OneLeggedClientTests.m; path = ../OrangeFashion/AFOAuth1Client/AFOAuth1OneLeggedClientTests.m; sourceTree = "<group>"; };
+		B490FE4819542A6000E1B60F /* AFOAuth1OneLeggedClientWooParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOAuth1OneLeggedClientWooParserTests.m; path = ../OrangeFashion/AFOAuth1Client/AFOAuth1OneLeggedClientWooParserTests.m; sourceTree = "<group>"; };
 		B51E29F28E764B30BDE87C81 /* libPods-OrangeFashion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeFashion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1C8A3E323345E48F708F87 /* libPods-OrangeFashionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrangeFashionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,6 +93,8 @@
 				B40A9AC31951A5980075337E /* AFOAuth1Client.m */,
 				B47B335119529E1600F207F3 /* AFOAuth1OneLeggedClient.h */,
 				B47B335219529E1600F207F3 /* AFOAuth1OneLeggedClient.m */,
+				B44B25F01953F584007CE8B1 /* AFOAuth1OneLeggedClientWooParser.h */,
+				B44B25F11953F584007CE8B1 /* AFOAuth1OneLeggedClientWooParser.m */,
 			);
 			path = AFOAuth1Client;
 			sourceTree = "<group>";
@@ -142,8 +147,8 @@
 		B4434C98194E230000F70419 /* OrangeFashionTests */ = {
 			isa = PBXGroup;
 			children = (
-				B47B334F19529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m */,
-				B4434C9B194E230000F70419 /* OrangeFashionTests.m */,
+				B490FE4719542A6000E1B60F /* AFOAuth1OneLeggedClientTests.m */,
+				B490FE4819542A6000E1B60F /* AFOAuth1OneLeggedClientWooParserTests.m */,
 				B4434C99194E230000F70419 /* Supporting Files */,
 			);
 			path = OrangeFashionTests;
@@ -324,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4434C8B194E230000F70419 /* ViewController.m in Sources */,
+				B44B25F21953F584007CE8B1 /* AFOAuth1OneLeggedClientWooParser.m in Sources */,
 				B4434C88194E230000F70419 /* AppDelegate.m in Sources */,
 				B4434C85194E230000F70419 /* main.m in Sources */,
 				B40A9AC41951A5980075337E /* AFOAuth1Client.m in Sources */,
@@ -335,8 +341,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B47B335019529B0F00F207F3 /* AFOAuth1OneLeggedClientTests.m in Sources */,
-				B4434C9C194E230000F70419 /* OrangeFashionTests.m in Sources */,
+				B461DCDE19542C28003F7EF4 /* AFOAuth1OneLeggedClientTests.m in Sources */,
+				B461DCDF19542C2C003F7EF4 /* AFOAuth1OneLeggedClientWooParserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OrangeFashion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -457,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OrangeFashion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
