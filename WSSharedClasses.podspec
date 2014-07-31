@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'WooClient'
+  s.name         = 'WSSharedClasses'
   s.version      = '0.1'
   s.summary      = 'This is the client for Woo Commerce'
   s.homepage     = 'nssubject.com'
