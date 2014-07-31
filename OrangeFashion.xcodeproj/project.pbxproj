@@ -552,6 +552,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = OrangeFashionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -570,6 +571,7 @@
 				);
 				GCC_PREFIX_HEADER = "OrangeFashion/Supporting Files/WooShop-Prefix.pch";
 				INFOPLIST_FILE = OrangeFashionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";

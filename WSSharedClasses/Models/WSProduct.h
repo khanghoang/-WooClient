@@ -59,6 +59,175 @@
 /**
  Total sales of each product, include variations of it.
  */
-@property (nonatomic, strong) NSNumber *total_sales;
+@property (nonatomic, strong) NSNumber *totalSales;
+
+/**
+ @TODO
+ Rating count on each product.
+ */
+@property (nonatomic, strong) NSNumber *ratingCount;
+
+/**
+ @TODO
+ */
+@property (nonatomic, strong) NSNumber *managingStock;
+
+/**
+ Title? is it the product name?
+ */
+@property (nonatomic, strong) NSString *title;
+
+/**
+ @TODO
+ */
+@property (nonatomic, strong) NSNumber *backOrdered;
+
+/**
+ This property allows us to know its product is saled or not
+ */
+@property (nonatomic, strong) NSNumber *onSale;
+
+/**
+ Status of this product.
+ */
+@property (nonatomic, strong) NSNumber *status;
+
+/**
+ @TODO
+ Download limit
+ */
+@property (nonatomic, strong) NSNumber *downloadLimit;
+
+/**
+ Taxable
+ */
+@property (nonatomic, strong) NSNumber *taxable;
+
+/**
+ Allow review
+ */
+@property (nonatomic, strong) NSNumber *reviewAllowed;
+
+/**
+ Description
+ */
+@property (nonatomic, strong) NSString *description;
+
+/**
+ Purchaseable
+ */
+@property (nonatomic, strong) NSNumber *purchaseable;
+
+/**
+ Sale price
+ */
+@property (nonatomic, strong) NSNumber *salePrice;
+
+/**
+ Product type
+ */
+@property (nonatomic, strong) NSString *type;
+
+/**
+ Product permalink
+ */
+@property (nonatomic, strong) NSString *permalink;
+
+/**
+ Catalog visibility
+ */
+@property (nonatomic, strong) NSString *catalogVisibility;
+
+/**
+ Download expiry
+ */
+@property (nonatomic, strong) NSNumber *downloadExpiry;
+
+/**
+ Dismession
+ */
+@property (nonatomic, strong) NSDictionary *dimesions;
+
+/**
+ Cross sell ids
+ */
+@property (nonatomic, strong) NSArray *crossSellIDs;
+
+/**
+ Price
+ */
+@property (nonatomic, strong) NSNumber *price;
+
+/** 
+ Update at
+ */
+@property (nonatomic, strong) NSDate *updatedAt;
+
+/**
+ Attribute
+ */
+@property (nonatomic, strong) NSArray *attributes;
+
+/**
+ Shipping class
+ */
+@property (nonatomic, strong) NSString *shippingClass;
+
+/**
+ Virtual
+ */
+@property (nonatomic, strong) NSNumber *isVirtual;
+
+/**
+ Downloadable
+ */
+@property (nonatomic, strong) NSNumber *downloadable;
+
+/**
+ Upsell ids
+ */
+@property (nonatomic, strong) NSArray *upSellIDs;
+
+/**
+ Created at
+ */
+@property (nonatomic, strong) NSDate *createdAt;
+
+/**
+ Tax class
+ */
+@property (nonatomic, strong) NSString *taxClass;
+
+/**
+ Tags
+ */
+@property (nonatomic, strong) NSArray *tags;
+
+/**
+ HTML price
+ */
+@property (nonatomic, strong) NSString *htmlPrice;
+
+/**
+ In stock
+ */
+@property (nonatomic, strong) NSNumber *inStock;
+
+/**
+ Sold individually
+ */
+@property (nonatomic, strong) NSNumber *soldIndividually;
+
+/**
+ Short description
+ */
+@property (nonatomic, strong) NSString *shortDescription;
+
+/**
+ @TODO
+ Download
+ */
+@property (nonatomic, strong) NSArray *downloads;
+
 
 @end
