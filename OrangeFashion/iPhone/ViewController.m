@@ -11,7 +11,7 @@
 #import "AFOAuth1Client.h"
 #import "AFOAuth1OneLeggedClient.h"
 
-static NSString * const PATH = @"http://128.199.175.238/wc-api/v1";
+static NSString * const PATH = @"http://128.199.175.238/wc-api/v2";
 
 static NSString * const OAUTH_CUSTOMER_KEY = @"ck_047f2bea42bf1038e13e763cba9dfc34";
 static NSString * const OAUTH_CUSTOMER_SERCET = @"cs_ff26a2fb3f2458e4c73230648344fd42";
